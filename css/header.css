@@ -1,0 +1,39 @@
+header{
+    position: sticky;
+    top:0;
+    background-color: rgb(41, 148, 143);
+    padding: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .options, .op{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    margin-right: 1.3em;
+    font-size: 1.5em;
+}
+
+header h1, a{
+    color:#000000;
+    transition: 0.3s ease-in-out;
+}
+
+header h1:hover, a:hover{
+    transition: 0.3s ease-in-out;
+    color: #FFF;
+    font-weight: 700;
+}

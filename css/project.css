@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+img{
+    width: 40vh;
+}
